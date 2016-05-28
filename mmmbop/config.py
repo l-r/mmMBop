@@ -1,6 +1,6 @@
 name = 'mmmbop'
 packages = ['mmmbop']
-version = '0.1'
+version = '0.1.1'
 description = 'View MBtiles on localhost'
 author = 'Laurier Rochon'
 author_email = 'l@pwd.io'
