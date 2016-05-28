@@ -8,6 +8,14 @@ View MBtiles on localhost. Python implementation of [mbview](https://github.com/
 
 ## Installation
 
+Via pip
+
+```bash
+pip install mmmbop
+```
+
+Via clonage
+
 ```bash
 git clone https://github.com/l-r/mmmbop.git
 cd mmmbop
@@ -18,15 +26,20 @@ pip install -r requirements.txt
 
 #### To view a single file
 
-`python mmmbop/cli.py data/baja-highways.mbtiles`
+`mmmbop data/baja-highways.mbtiles`
 
 #### To view multiple files
 
-`python mmmbop/cli.py data/baja-highways.mbtiles data/another_file.mbtiles`
+`mmmbop data/baja-highways.mbtiles data/another_file.mbtiles`
 
 #### To view all .mbfiles in the current directory (non-recursive)
 
-`python mmmbop/cli.py`
+`mmmbop`
+
+
+## Browser and ports
+
+mmmbop uses the standard Flask port, which is `5000` (open your browser to `http://localhost:5000`)
 
 
 #### Warning & disclaimer
