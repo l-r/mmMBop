@@ -50,6 +50,6 @@ mmmbop
 mmmbop uses the standard Flask port, which is `5000` (open your browser to `http://localhost:5000`)
 
 
-#### Warning & disclaimer
+## Warning & disclaimer
 
 Please don't use this on anything else than a development machine. Debug options are on and there is a CORS wrapper on the entire app to allow cross-origin requests.
