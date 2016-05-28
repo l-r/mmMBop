@@ -16,4 +16,7 @@ setup(
     keywords=keywords,
     classifiers=[],
     install_requires=required,
+    entry_points={
+        'console_scripts': ['mmmbop=mmmbop.cli:serve'],
+    }
 )

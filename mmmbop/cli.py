@@ -45,8 +45,11 @@ def get_tiles(src_index, z, x, y):
     return resp
 
 
-if __name__ == "__main__":
+def serve():
     options = docopt(__doc__, version='{} {}'.format(config.name, config.version))
     util.parse_args(options, app)
 
     app.run(debug=True)
+
+if __name__ == "__main__":
+    serve()
