@@ -1,5 +1,9 @@
-from distutils.core import setup
+from setuptools import setup
 from mmmbop.config import *
+
+with open('requirements.txt') as f:
+    required = f.read().splitlines()
+
 setup(
     name=name,
     packages=packages,
@@ -11,4 +15,5 @@ setup(
     download_url=download_url,
     keywords=keywords,
     classifiers=[],
+    install_requires=required,
 )
