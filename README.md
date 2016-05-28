@@ -14,13 +14,15 @@ Via pip
 pip install mmmbop
 ```
 
-Via clonage
+or
 
 ```bash
 git clone https://github.com/l-r/mmmbop.git
 cd mmmbop
 pip install -r requirements.txt
 ```
+
+If you use the clone method, replace the `mmmbop` commands below with `python mmmbop/cli.py`
 
 ## Usage
 
