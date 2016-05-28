@@ -26,15 +26,21 @@ pip install -r requirements.txt
 
 #### To view a single file
 
-`mmmbop data/baja-highways.mbtiles`
+```bash
+mmmbop data/baja-highways.mbtiles
+```
 
 #### To view multiple files
 
-`mmmbop data/baja-highways.mbtiles data/another_file.mbtiles`
+```bash
+mmmbop data/baja-highways.mbtiles data/another_file.mbtiles
+```
 
 #### To view all .mbfiles in the current directory (non-recursive)
 
-`mmmbop`
+```bash
+mmmbop
+```
 
 
 #### Browser and ports
