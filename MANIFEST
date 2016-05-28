@@ -6,4 +6,3 @@ mmmbop/__init__.py
 mmmbop/cli.py
 mmmbop/config.py
 mmmbop/util.py
-mmmbop/templates/*
