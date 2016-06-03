@@ -1,10 +1,10 @@
 # mmMBop
 
-![hansonbros](http://67.media.tumblr.com/1a7233b3997c21a1680bdebb836ce241/tumblr_mjkaqbB4rb1qgcra2o1_400.gif)
+![hansonbros](http://67.media.tumblr.com/1a7233b3997c21a1680bdebb836ce241/tumblr_mjkaqbB4rb1qgcra2o1_400.gif) ![hansonbros](http://67.media.tumblr.com/1a7233b3997c21a1680bdebb836ce241/tumblr_mjkaqbB4rb1qgcra2o1_400.gif)
 
 View MBtiles on localhost. Python implementation of [mbview](https://github.com/mapbox/mbview). Tested with python `2.7.10` and `3.5.1`
 
-![example](https://raw.githubusercontent.com/l-r/mmmbop/master/screenshots/mbtile.png)
+![example](https://raw.githubusercontent.com/l-r/mmmbop/master/screenshots/mbtile.png) 
 
 ## Installation
 
