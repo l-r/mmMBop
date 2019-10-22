@@ -15,7 +15,7 @@ setup(
     classifiers=[],
     install_requires=[
         "docopt==0.6.2",
-        "Flask==0.10.1",
+        "Flask==1.0",
         "Flask-Cors==2.1.2",
         "itsdangerous==0.24",
         "Jinja2==2.8",
